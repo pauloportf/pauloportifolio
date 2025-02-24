@@ -1,0 +1,108 @@
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  .introducao {
+    background: url("../IMG/Inicio-large.png");
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 787px) {
+  .header {
+    padding: 5px;
+  }
+
+  .header a {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header a img {
+    margin: 0 auto;
+  }
+
+  .header_menu {
+    text-align: center;
+  }
+
+  .header_menu ul li {
+    margin: 0;
+  }
+
+  .header_menu ul li a {
+    display: block;
+    width: 120px;
+    padding: 10px 0;
+  }
+
+  .introducao {
+    background: url("../IMG/Inicio-mobile.png");
+    background-size: cover;
+    height: 65vh;
+
+    padding-top: 50px;
+  }
+
+  .introducao h1 {
+    font-size: 38px;
+    font-weight: bold;
+    color: #f5f5f5;
+  }
+
+  .introducao h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #d7d6d5;
+  }
+
+  .sobremim {
+    height: 1150px;
+  }
+
+  .box1 {
+    width: 120px;
+    height: 170px;
+    background-image: url("../IMG/ME1.png");
+    background-size: cover;
+    top: 0px;
+    left: 160px;
+    z-index: 1;
+  }
+  .box2 {
+    width: 220px;
+    height: 220px;
+    background-image: url("../IMG/ME2.png");
+    background-size: cover;
+    top: 100px;
+    left: 10px;
+  }
+  .box3 {
+    width: 170px;
+    height: 150px;
+    background-image: url("../IMG/ME3.png");
+    background-size: cover;
+    top: 300px;
+    left: 120px;
+  }
+
+  .pepsico,
+  .github {
+    width: 290px;
+    height: 276px;
+    background-color: #f5f5f5;
+
+    text-align: left;
+    margin: 10px;
+    font-size: 14px;
+    padding: 15px;
+
+    border-radius: 10px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .introducao {
+    background: url("../IMG/Inicio-child.png");
+    background-size: cover;
+  }
+}

@@ -1,0 +1,305 @@
+/* Estilos Gerais */
+body {
+  font-family: "Kantumruy Pro", serif;
+}
+
+/* Header */
+
+header {
+  background-color: #feb3b4;
+  width: 100%;
+  padding: 15px 0;
+  top: 0;
+}
+
+.header_menu {
+  text-align: right;
+}
+
+.header_menu ul li {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 25px;
+}
+
+.header_menu ul li a {
+  text-decoration: none;
+  font-family: "Kantumruy Pro", serif;
+  font-weight: bold;
+  font-size: 14px;
+
+  color: #f5f5f5;
+  letter-spacing: 0.1em;
+  padding: 10px 0;
+
+  transition: 0.5s ease;
+}
+
+.header_menu ul li a:hover {
+  color: #060606;
+  transition: 0.5s ease;
+}
+
+/* Introdução */
+.introducao {
+  width: 100%;
+  height: 80vh;
+  background: url("../IMG/HomeCat.png");
+  background-size: cover;
+
+  padding-top: 110px;
+
+  text-align: center;
+}
+
+.introducao h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f5f5f5;
+}
+
+.introducao h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #d7d6d5;
+}
+
+.introducao h1:after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  background-color: #fd6669;
+  margin: 14px auto 14px auto;
+}
+
+.introducao p {
+  margin-top: 230px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #f5f5f5;
+  letter-spacing: 0.3px;
+}
+
+/* Sobre mim */
+.sobremim {
+  width: 100%;
+  padding-top: 60px;
+}
+
+.sobremim h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.sobremim h2:after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  background-color: #fd6669;
+  margin: 5px 0;
+}
+
+.sobremim .content {
+  text-align: left;
+}
+
+.sobremim .text {
+  text-align: left;
+  margin: 52px 0;
+
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.glow-box {
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 0px 15px red;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.box1 {
+  width: 120px;
+  height: 170px;
+  background-image: url("../IMG/ME1.png");
+  background-size: cover;
+  top: 0px;
+  left: 260px;
+  z-index: 1;
+}
+.box2 {
+  width: 220px;
+  height: 220px;
+  background-image: url("../IMG/ME2.png");
+  background-size: cover;
+  top: 100px;
+  left: 110px;
+}
+.box3 {
+  width: 170px;
+  height: 150px;
+  background-image: url("../IMG/ME3.png");
+  background-size: cover;
+  top: 300px;
+  left: 220px;
+}
+
+/* Projetos*/
+.projetos {
+  width: 100%;
+  height: max-content;
+  background-color: #feb3b4;
+  padding: 50px 0;
+}
+
+.projetos h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #060606;
+}
+
+.projetos .card {
+  margin-left: 0;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+
+  border: none;
+
+  height: 452px;
+}
+
+.projetos .card-title {
+  font-weight: bold;
+}
+
+.projetos .btn {
+  width: 100%;
+
+  margin: 10px 0;
+  background-color: #feb3b4;
+  color: #0f0f0f;
+  border: 2px solid transparent;
+
+  transition: 0.5s ease;
+}
+
+.projetos .btn:hover {
+  background-color: #fd6669;
+  color: #f5f5f5;
+  border: 2px solid #060606;
+}
+
+.projetos h2:after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  background-color: #fd6669;
+  margin: 5px 0;
+
+  margin-bottom: 50px;
+}
+
+/* Experiêcia */
+.experiencia {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+}
+
+.experiencia h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #060606;
+}
+
+.experiencia h2:after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  background-color: #fd6669;
+  margin: 5px 0;
+
+  margin-bottom: 20px;
+}
+
+.experiencia-link {
+  margin-bottom: 40px;
+}
+
+.pepsico,
+.github {
+  width: 340px;
+  height: 276px;
+
+  background-color: #f5f5f5;
+
+  text-align: left;
+  margin: 0;
+
+  margin-right: 40px;
+  padding: 20px;
+  font-size: 14px;
+
+  border-radius: 10px;
+}
+
+.pepsico img,
+.github img {
+  margin-bottom: 5px;
+}
+
+.data {
+  color: #4a4a4a;
+}
+
+/* Meus Links */
+.meuslinks .linkedinlink {
+  width: 36px;
+  height: 36px;
+  margin-left: 0;
+}
+
+.meuslinks .githublink,
+.meuslinks .spotifylink {
+  width: 36px;
+  height: 36px;
+  transition: 0.5s ease;
+}
+
+.meuslinks .linkedinlink:hover,
+.meuslinks .githublink:hover,
+.meuslinks .spotifylink:hover {
+  opacity: 0.8;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  background-color: #fd6669;
+}
+
+footer p {
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: bold;
+}
