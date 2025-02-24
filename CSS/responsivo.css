@@ -1,6 +1,6 @@
 @media only screen and (min-width: 788px) and (max-width: 979px) {
   .introducao {
-    background: url("../IMG/Inicio-large.png");
+    background: url("../IMG/HomeCat.jpg");
     background-size: cover;
   }
 }
@@ -18,7 +18,7 @@
   }
 
   .header a img {
-    margin: 0 auto;
+    margin: 10px auto;
   }
 
   .header_menu {
@@ -36,7 +36,9 @@
   }
 
   .introducao {
-    background: url("../IMG/Inicio-mobile.png");
+    background: url("../IMG/HomeCat.jpg");
+    background-position: left;
+
     background-size: cover;
     height: 65vh;
 
@@ -102,7 +104,9 @@
 
 @media only screen and (max-width: 500px) {
   .introducao {
-    background: url("../IMG/Inicio-child.png");
+    background: url("../IMG/HomeCat-mobile.jpg");
     background-size: cover;
+
+    background-position: left left;
   }
 }
