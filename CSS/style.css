@@ -56,7 +56,7 @@ header img {
 .introducao {
   width: 100%;
   height: 80vh;
-  background-image: url(../IMG/HomeCat.webp);
+  background: url("../IMG/HomeWP.webp");
   background-size: cover;
 
   padding-top: 80px;
@@ -73,7 +73,7 @@ header img {
 .introducao h2 {
   font-size: 24px;
   font-weight: bold;
-  color: #ffffffbb;
+  color: #ffffffe1;
 
   margin-top: -15px;
 
@@ -96,14 +96,14 @@ header img {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 14px;
   font-weight: bold;
-  color: #f5f5f5cb;
+  color: #ececece7;
   letter-spacing: 0.3px;
 }
 
 /* Sobre mim */
 .sobremim {
   width: 100%;
-  padding-top: 60px;
+  padding: 50px 0;
 }
 
 .sobremim h2 {
@@ -158,7 +158,7 @@ header img {
   left: 260px;
   z-index: 1;
 
-  filter: grayscale(1);
+  filter: grayscale(0);
   transition: 0.5s ease;
 }
 
@@ -170,7 +170,7 @@ header img {
   top: 100px;
   left: 110px;
 
-  filter: grayscale(1);
+  filter: grayscale(0);
   transition: 0.5s ease;
 }
 .box3 {
@@ -181,14 +181,14 @@ header img {
   top: 300px;
   left: 220px;
 
-  filter: grayscale(1);
+  filter: grayscale(0);
   transition: 0.5s ease;
 }
 
 .box3:hover,
 .box2:hover,
 .box1:hover {
-  filter: grayscale(0);
+  filter: grayscale(1);
 }
 
 /* Projetos*/
@@ -210,28 +210,51 @@ header img {
   margin-bottom: 20px;
   background-color: #ffffff;
 
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 10px;
+
   border: none;
 
-  height: 452px;
+  height: 440px;
 
   transition: 0.5s ease;
-}
 
-.projetos .card:hover {
   box-shadow: 0px 0px 15px #54582f;
 }
 
+.projetos .card:hover {
+  box-shadow: 0px 0px 15px transparent;
+}
+
+.projetos .card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
 .projetos .card-title {
+  margin: 10px 0px 10px 10px;
   font-weight: bold;
 }
 
-.projetos .btn {
-  width: 100%;
+.projetos .card-text {
+  margin: 10px 0px 10px 10px;
+}
 
-  margin: 10px 0;
+.projetos .btn {
+  width: 150px;
+  padding: 5px;
+
+  text-decoration: none;
+  border-radius: 100px;
+
+  margin: 0 auto;
   background-color: #272b00;
   color: #f5f5f5;
   border: 2px solid transparent;
+
+  text-align: center;
 
   transition: 0.5s ease;
 }
