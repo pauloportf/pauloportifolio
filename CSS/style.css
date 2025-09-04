@@ -1,12 +1,12 @@
 /* Estilos Gerais */
 body {
-  font-family: "Kantumruy Pro", serif;
+  font-family: "Poppins", serif;
 }
 
 /* Header */
 
 header {
-  background-color: #272b00;
+  background-color: #422329;
   width: 100%;
   padding: 15px 0;
   top: 0;
@@ -33,7 +33,7 @@ header img {
 
 .header_menu ul li a {
   text-decoration: none;
-  font-family: "Kantumruy Pro", serif;
+  font-family: "Poppins", serif;
   font-weight: bold;
   font-size: 14px;
 
@@ -49,14 +49,14 @@ header img {
 .header_menu ul li a:hover {
   color: #f8fbca;
   transition: 0.5s ease;
-  border-bottom: 2px solid #f8fbca;
+  border-bottom: 2px solid #b7887e;
 }
 
 /* Introdução */
 .introducao {
   width: 100%;
-  height: 80vh;
-  background: url("../IMG/HomeWP.webp");
+  height: 50vh;
+  background: url("../IMG/LuluArcana.webp");
   background-size: cover;
 
   padding-top: 80px;
@@ -85,18 +85,18 @@ header img {
   display: block;
   width: 70px;
   height: 3px;
-  background-color: #f8fbca;
+  background-color: #b7887e;
   margin: 15px auto 0px auto;
 
   padding: 0px;
 }
 
 .introducao p {
-  margin-top: 50px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 200px;
+  font-family: "Montserrat", serif;
   font-size: 14px;
   font-weight: bold;
-  color: #ececece7;
+  color: #fffffff6;
   letter-spacing: 0.3px;
 }
 
@@ -104,11 +104,13 @@ header img {
 .sobremim {
   width: 100%;
   padding: 50px 0;
+  background-color: #f5f5f5;
 }
 
 .sobremim h2 {
   font-size: 32px;
   font-weight: bold;
+  font-family: "Poppins", serif;
 }
 
 .sobremim h2:after {
@@ -116,7 +118,7 @@ header img {
   display: block;
   width: 70px;
   height: 3px;
-  background-color: #54582f;
+  background-color: #422329;
   margin: 5px 0;
 }
 
@@ -126,10 +128,13 @@ header img {
 
 .sobremim .text {
   text-align: left;
-  margin: 52px 0;
+  margin: 30px 0;
 
-  font-size: 14px;
-  font-weight: bold;
+  font-family: "Montserrat", serif;
+  line-height: 1.2rem;
+
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .images {
@@ -144,7 +149,7 @@ header img {
   height: 100px;
   background-size: cover;
   background-position: center;
-  box-shadow: 0px 0px 15px #54582f;
+  box-shadow: 0px 0px 15px #b7887e;
   border-radius: 5px;
   position: absolute;
 }
@@ -195,74 +200,15 @@ header img {
 .projetos {
   width: 100%;
   height: max-content;
-  background-color: #f5f5f5;
+  background-color: #fff;
   padding: 50px 0;
 }
 
 .projetos h2 {
   font-size: 32px;
   font-weight: bold;
+  font-family: "Poppins", serif;
   color: #060606;
-}
-
-.projetos .card {
-  margin-left: 0;
-  margin-bottom: 20px;
-  background-color: #ffffff;
-
-  display: flex;
-  flex-direction: column;
-
-  border-radius: 10px;
-
-  border: none;
-
-  height: 440px;
-
-  transition: 0.5s ease;
-
-  box-shadow: 0px 0px 15px #54582f;
-}
-
-.projetos .card:hover {
-  box-shadow: 0px 0px 15px transparent;
-}
-
-.projetos .card-img-top {
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
-.projetos .card-title {
-  margin: 10px 0px 10px 10px;
-  font-weight: bold;
-}
-
-.projetos .card-text {
-  margin: 10px 0px 10px 10px;
-}
-
-.projetos .btn {
-  width: 150px;
-  padding: 5px;
-
-  text-decoration: none;
-  border-radius: 100px;
-
-  margin: 0 auto;
-  background-color: #272b00;
-  color: #f5f5f5;
-  border: 2px solid transparent;
-
-  text-align: center;
-
-  transition: 0.5s ease;
-}
-
-.projetos .btn:hover {
-  background-color: #54582f;
-  color: #f5f5f5;
-  border: 2px solid #060606;
 }
 
 .projetos h2:after {
@@ -270,15 +216,34 @@ header img {
   display: block;
   width: 70px;
   height: 3px;
-  background-color: #54582f;
+  background-color: #422329;
   margin: 5px 0;
 
   margin-bottom: 50px;
 }
 
+.sites {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  justify-content: center;
+}
+
+.sites a {
+  margin: 10px;
+  opacity: 1;
+  transition: 1s ease;
+}
+
+.sites a:hover {
+  opacity: 0.3;
+}
+
 /* Linguagens */
 .linguagens h2 {
-  margin-top: 15px;
+  margin-top: 120px;
+  font-family: "Poppins", serif;
 }
 
 .front,
@@ -301,17 +266,14 @@ header img {
   align-items: center;
   justify-content: center;
 
-  width: 150px;
-  height: 150px;
+  width: 90px;
+  height: 90px;
 
-  border: 2px solid #54582f;
   border-radius: 10px;
 
-  padding: 20px 0px;
-}
+  margin: 10px;
 
-.react {
-  transition: 0.8s ease;
+  padding: 20px 0px;
 }
 
 /* Experiêcia */
@@ -324,6 +286,7 @@ header img {
   font-size: 32px;
   font-weight: bold;
   color: #060606;
+  font-family: "Poppins", serif;
 }
 
 .experiencia h2:after {
@@ -331,7 +294,7 @@ header img {
   display: block;
   width: 70px;
   height: 3px;
-  background-color: #54582f;
+  background-color: #422329;
   margin: 5px 0;
 
   margin-bottom: 20px;
@@ -342,24 +305,25 @@ header img {
 }
 
 .pepsico,
-.github {
+.github,
+.paulo {
   width: 340px;
   height: 276px;
 
   background-color: #f5f5f5;
 
   text-align: left;
-  margin: 0;
-
-  margin-right: 40px;
+  margin: 0px 20px 20px 0px;
   padding: 20px;
   font-size: 14px;
+  line-height: 0.9rem;
 
   border-radius: 10px;
 }
 
 .pepsico img,
-.github img {
+.github img,
+.paulo img {
   margin-bottom: 5px;
 }
 
@@ -400,7 +364,7 @@ footer {
   width: 100%;
   height: 60px;
   text-align: center;
-  background-color: #272b00;
+  background-color: #422329;
 }
 
 footer p {
