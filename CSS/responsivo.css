@@ -32,15 +32,6 @@
 
     padding: 0px;
   }
-
-  .introducao p {
-    margin-top: 200px;
-    font-family: "Montserrat", serif;
-    font-size: 14px;
-    font-weight: bold;
-    color: #fffffff6;
-    letter-spacing: 0.3px;
-  }
 }
 
 @media only screen and (min-width: 788px) and (max-width: 979px) {
@@ -100,10 +91,6 @@
     color: #d7d6d5;
   }
 
-  .introducao p {
-    margin-top: 120px;
-  }
-
   .sobremim {
     height: 1150px;
   }
@@ -161,9 +148,5 @@
     height: 50vh;
 
     background-position: left left;
-  }
-
-  .introducao p {
-    margin-top: 70px;
   }
 }

@@ -90,15 +90,6 @@ header img {
   padding: 0px;
 }
 
-.introducao p {
-  margin-top: 200px;
-  font-family: "Montserrat", serif;
-  font-size: 14px;
-  font-weight: bold;
-  color: #fffffff6;
-  letter-spacing: 0.3px;
-}
-
 /* Sobre mim */
 .sobremim {
   width: 100%;
